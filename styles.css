@@ -42,6 +42,7 @@ a { color: inherit; text-decoration: none; }
 .primary-cta span:last-child { font-size: 18px; line-height: 1; }
 .text-link { font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: 11px; letter-spacing: .13em; border-bottom: 1px solid var(--gold); padding-bottom: 10px; display: inline-flex; gap: 26px; }
 .text-link span { color: var(--gold); font-size: 18px; line-height: 10px; }
+.text-link .link-label { color: inherit; font-size: inherit; line-height: inherit; }
 .hero-visual { position: relative; min-height: 690px; }
 .image-frame { position: absolute; inset: 0; background-color: #285d73; background-image: linear-gradient(180deg, rgba(13, 39, 64, .34) 0%, rgba(13, 39, 64, .04) 34%, rgba(13, 39, 64, .24) 100%), url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1500&q=85"); background-position: center; background-size: cover; clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%); }
 .hero-note { position: absolute; left: 12%; bottom: 125px; display: flex; gap: 16px; align-items: start; }
