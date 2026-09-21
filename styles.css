@@ -67,7 +67,7 @@ a { color: inherit; text-decoration: none; }
 .platform-card { position: relative; min-height: 290px; padding: 28px; border-right: 1px solid #bfd0d0; border-bottom: 1px solid #bfd0d0; transition: background .3s, transform .3s; }
 .platform-card:hover { background: var(--forest); color: #fff; transform: translateY(-4px); }
 .card-number { font-size: 11px; color: #7e9a9e; }
-.platform-icon { position: absolute; right: 28px; top: 23px; font-size: 37px; font-family: var(--serif); color: var(--gold); line-height: 1; }
+.platform-icon { position: absolute; right: 28px; top: 23px; width: 44px; height: 44px; display: block; object-fit: contain; }
 .platform-card h3 { font-family: var(--display); font-size: 18px; line-height: 1.2; text-transform: uppercase; max-width: 220px; margin: 54px 0 18px; }
 .platform-card p { font-size: 14px; line-height: 1.55; max-width: 280px; color: #60737a; margin: 0; }
 .platform-card:hover p { color: #d4e2e2; }
@@ -104,7 +104,7 @@ a { color: inherit; text-decoration: none; }
 .contact h2 { font-size: clamp(44px, 6vw, 80px); }
 .contact-link { display: inline-flex; margin-top: 36px; font-family: var(--display); font-weight: 700; font-size: 18px; color: var(--forest); border-bottom: 1px solid var(--gold); padding-bottom: 11px; gap: 22px; }
 .contact-link span { color: var(--gold); }
-.contact-details { display: flex; justify-content: center; gap: 80px; margin-top: 45px; font-size: 12px; text-align: left; color: #587078; }
+.contact-details { display: flex; justify-content: center; gap: 80px; margin-top: 45px; font-size: 15px; text-align: left; color: #587078; }
 footer { background: var(--sand); color: var(--ink); padding: 35px max(5vw, calc((100vw - 1320px) / 2)); display: flex; justify-content: space-between; align-items: center; font-size: 11px; }
 footer .brand { color: var(--ink); }
 footer p { margin: 0; color: #587078; }
